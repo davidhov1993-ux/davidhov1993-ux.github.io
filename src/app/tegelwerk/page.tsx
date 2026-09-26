@@ -47,7 +47,57 @@ export default function Tegelwerk() {
       </section>
 
       {/* Long-form Consolidated Service Content */}
+      
+      {/* Typographic Index */}
       <section className="col-span-1 md:col-span-12 grid grid-cols-1 md:grid-cols-12 gap-x-4 mb-space-xl px-5 md:px-0">
+        <div className="col-span-1 md:col-span-5 order-last md:order-first md:mt-16 xl:mt-32">
+           <H2>Onze tegelwerkdiensten</H2>
+           <p className="mt-space-sm font-inter text-[#1A1A1A]">
+             Een goed eindresultaat vraagt om specialisatie. SPPAT voert tegelwerk uit voor verschillende toepassingen, waarbij elke situatie een eigen technische aanpak vereist.
+           </p>
+        </div>
+        <div className="col-span-1 md:col-span-7 order-first md:order-last mb-space-md md:mb-0">
+          <ul className="flex flex-col border-t border-[#E5E5E5]">
+            <li className="flex flex-col border-b border-[#E5E5E5] py-4">
+              <div className="flex items-center gap-4">
+                <span className="text-[#666666] font-space text-sm">01</span>
+                <a href="#vloertegels" className="font-space text-lg hover:underline uppercase tracking-wider text-[#1A1A1A]">Vloertegels leggen</a>
+              </div>
+              <p className="mt-2 text-sm font-inter text-[#1A1A1A] ml-8">Voor woonruimtes, hallen, keukens, badkamers en andere vloeren.</p>
+            </li>
+            <li className="flex flex-col border-b border-[#E5E5E5] py-4">
+              <div className="flex items-center gap-4">
+                <span className="text-[#666666] font-space text-sm">02</span>
+                <a href="#wandtegels" className="font-space text-lg hover:underline uppercase tracking-wider text-[#1A1A1A]">Wandtegels zetten</a>
+              </div>
+              <p className="mt-2 text-sm font-inter text-[#1A1A1A] ml-8">Voor badkamers, toiletten, keukens en andere betegelde wanden.</p>
+            </li>
+            <li className="flex flex-col border-b border-[#E5E5E5] py-4">
+              <div className="flex items-center gap-4">
+                <span className="text-[#666666] font-space text-sm">03</span>
+                <a href="#keuken" className="font-space text-lg hover:underline uppercase tracking-wider text-[#1A1A1A]">Keuken tegelen</a>
+              </div>
+              <p className="mt-2 text-sm font-inter text-[#1A1A1A] ml-8">Achterwanden, spatwanden en vloeren met aandacht voor uitsparingen en aansluitingen.</p>
+            </li>
+            <li className="flex flex-col border-b border-[#E5E5E5] py-4">
+              <div className="flex items-center gap-4">
+                <span className="text-[#666666] font-space text-sm">04</span>
+                <a href="#balkon" className="font-space text-lg hover:underline uppercase tracking-wider text-[#1A1A1A]">Balkon tegelen</a>
+              </div>
+              <p className="mt-2 text-sm font-inter text-[#1A1A1A] ml-8">Buitentegelwerk waarbij ondergrond, waterafvoer en weersbelasting onderdeel zijn van de beoordeling.</p>
+            </li>
+            <li className="flex flex-col border-b border-[#E5E5E5] py-4">
+              <div className="flex items-center gap-4">
+                <span className="text-[#666666] font-space text-sm">05</span>
+                <a href="#badkamer" className="font-space text-lg hover:underline uppercase tracking-wider text-[#1A1A1A]">Badkamer tegelen</a>
+              </div>
+              <p className="mt-2 text-sm font-inter text-[#1A1A1A] ml-8">Voor projecten waarbij u de renovatie zelf organiseert maar het tegelwerk professioneel wilt laten uitvoeren.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+<section className="col-span-1 md:col-span-12 grid grid-cols-1 md:grid-cols-12 gap-x-4 mb-space-xl px-5 md:px-0">
         <div className="col-span-1 md:col-span-8 md:col-start-3 mb-space-xl" id="vloertegels">
           <BlueprintLine className="mb-space-md" />
           <H2>Vloertegels Leggen</H2>
